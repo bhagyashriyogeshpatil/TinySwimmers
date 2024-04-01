@@ -28,9 +28,16 @@ header {
     box-shadow: 0 2px 2px #022853;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: "Bangers", system-ui, sans-serif;
-    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #03074e;
 }
 
 /* Main Content */
