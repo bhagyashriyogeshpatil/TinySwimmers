@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #c2effe;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #022853;
 }
 
 h1 {
@@ -30,7 +35,7 @@ h1 {
 
 /* Main Content */
 main {
-    background-color: lightblue;
+    background-color: #e9f9ff;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
