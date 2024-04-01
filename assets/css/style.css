@@ -92,7 +92,33 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #c2effe;
+}
+
+footer h3 {
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: #022853;
 }
 
 /* Media query: tablets and larger (768px and up) */
