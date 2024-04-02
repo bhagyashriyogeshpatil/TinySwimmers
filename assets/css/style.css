@@ -36,7 +36,7 @@ h2, h3 {
 header {
   background-color: #c2effe;
   padding: 0 1rem;
-  position: fixed;
+  position: relative;
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #022853;
@@ -102,7 +102,6 @@ main {
   background-color: #e9f9ff;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
-  margin-top: 121px;
 }
 
 /* Hero section */
@@ -171,6 +170,7 @@ span {
 /* Footer */
 footer {
   background-color: #c2effe;
+  flex-shrink: 0;
 }
 
 footer h3 {
@@ -227,11 +227,6 @@ footer p {
     line-height: 50px;
     margin: 0.5rem 0.5rem;
   }
-
-  /* Main content */
-  main {
-    margin-top: 211px;
-  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -240,11 +235,6 @@ footer p {
   
   #menu-links a:hover {
     border-bottom: 1px solid #022853;
-  }
-
-  /* Main content */
-  main {
-    margin-top: 161px;;
   }
 
   /* Hero section */
