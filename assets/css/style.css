@@ -27,6 +27,9 @@ h2, h3 {
   width: 80%;
   margin: 0 auto;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 /* Header */
@@ -139,6 +142,7 @@ main {
   text-decoration: none;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  margin: 0 auto;
 }
 
 
