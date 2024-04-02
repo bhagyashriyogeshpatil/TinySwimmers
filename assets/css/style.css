@@ -29,6 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  height: auto;  /* browser calculates the height of the element based on the height of its content */
 }
 
 header a {
@@ -165,17 +166,26 @@ footer p {
     margin: 0.5rem 0.5rem;
   }
 
+  /* Main content */
   main {
-    margin-top: 161px;
+    margin-top: 211px;
   }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+ 
+  
   #menu-links a:hover {
     border-bottom: 1px solid #022853;
   }
 
+  /* Main content */
+  main {
+    margin-top: 161px;;
+  }
+
+  /* Hero section */
   #hero {
     height: 550px;
   }
