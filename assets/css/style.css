@@ -58,6 +58,11 @@ h1 {
   color: #03074e;
 }
 
+#logo-image {
+  width: 90px;
+  height: 40px;
+}
+
 #menu-links {
   font-size: 110%;
   letter-spacing: 2px;
@@ -220,12 +225,6 @@ footer p {
 
   .nav-toggle-label {
     display: none;
-  }
-
-  #logo {
-    font-size: 180%;
-    line-height: 50px;
-    margin: 0.5rem 0.5rem;
   }
 }
 
