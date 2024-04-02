@@ -18,6 +18,26 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h2, h3 {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+    width: max-content;
+    background-color: #008cc3;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Header */
 header {
   background-color: #c2effe;
@@ -114,15 +134,14 @@ main {
   margin-top: auto;
 }
 
-.btn {
-  display: inline-block;
-    width: max-content;
-    background-color: #008cc3;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+/* Intro section */
+.container > p {
+  text-align: justify;
+}
+
+#swim-course-title {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Footer */
