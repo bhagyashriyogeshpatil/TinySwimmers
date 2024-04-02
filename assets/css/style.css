@@ -229,6 +229,13 @@ footer p {
   .nav-toggle-label {
     display: none;
   }
+
+/* Main content */
+#cover-text {
+  bottom: 0;
+  right: 0;
+  width: 60vw;
+}
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
