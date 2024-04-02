@@ -36,6 +36,7 @@ h2, h3 {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 /* Header */
