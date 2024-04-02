@@ -143,8 +143,7 @@ main {
 
 /* Intro section */
 .container p {
-  text-align: justify;
-  word-spacing: 0.01rem;
+  word-wrap: break-word;
 }
 
 #swim-course-title {
