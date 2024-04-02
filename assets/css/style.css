@@ -20,6 +20,7 @@ body {
 
 h2, h3 {
   text-align: center;
+  padding-bottom: 0.3rem;
 }
 
 .btn {
@@ -136,13 +137,21 @@ main {
 }
 
 /* Intro section */
-.container > p {
+.container p {
   text-align: justify;
+  word-spacing: 0.01rem;
 }
 
 #swim-course-title {
   font-weight: bold;
   font-style: italic;
+}
+
+/* Why section */
+
+span {
+  font-style: italic;
+  font-weight: 500;
 }
 
 /* Footer */
