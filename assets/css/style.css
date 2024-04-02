@@ -20,7 +20,7 @@ body {
 
 h2, h3 {
   text-align: center;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.4rem;
 }
 
 .btn {
@@ -133,6 +133,10 @@ main {
   align-items: center;
 }
 
+#cover-text h1 {
+  font-family: inherit;
+}
+
 #cover-text a {
   margin-top: auto;
 }
@@ -155,7 +159,7 @@ span {
   font-weight: 500;
 }
 
-/* Course section */
+/* Courses section */
 .course {
   padding: 0.4rem 0;
 }
