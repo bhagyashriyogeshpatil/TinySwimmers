@@ -23,18 +23,6 @@ h2, h3 {
   padding-bottom: 0.4rem;
 }
 
-.btn {
-  display: inline-block;
-    width: max-content;
-    background-color: #008cc3;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin: 0.3rem;
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
@@ -140,6 +128,18 @@ main {
 #cover-text a {
   margin-top: auto;
 }
+
+.btn {
+  display: inline-block;
+  width: max-content;
+  background-color: #0a8547fc;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
 
 /* Intro section */
 .container p {
