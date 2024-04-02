@@ -104,6 +104,13 @@ main {
   text-align: center;
   position: absolute;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+#cover-text a {
+  margin-top: auto;
 }
 
 /* Footer */
