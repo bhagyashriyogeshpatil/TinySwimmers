@@ -146,9 +146,12 @@ main {
   text-decoration: none;
   border-radius: 10px;
   transition: background-color 0.3s ease;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
+.btn:hover {
+  background-color: #31a76c;
+}
 
 /* Intro section */
 .container p {
