@@ -352,6 +352,11 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  /* Register page style */
+  .registration .container {
+    width: 50%;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
