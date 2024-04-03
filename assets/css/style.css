@@ -258,12 +258,22 @@ footer p {
     display: none;
   }
 
-/* Main content */
-#cover-text {
-  bottom: 0;
-  right: 0;
-  width: 60vw;
-}
+  /* Main content */
+  #cover-text {
+    bottom: 0;
+    right: 0;
+    width: 60vw;
+  }
+
+  /* Instructor section */
+  .container > .instructors {
+    width: 100%;
+  }
+
+  .instructors {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
