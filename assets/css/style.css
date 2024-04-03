@@ -320,6 +320,20 @@ footer p {
     display: flex;
     justify-content: space-evenly;
   }
+
+  /* Courses page style */
+  .baby-image {
+    margin-top: 2rem;
+  }
+
+  .course-info {
+    padding-left: 1rem;
+  }
+
+  .course-page .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
