@@ -1,106 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta name="description" content="Tiny Swimmers - your educational and modern swimming school from Munich. Find out here how we can happily teach your children to swim.">
-    <meta name="keywords" content="Baby swimming, toddler swimming, learning to swim, beginner swimming, swimming course, Munich">
+    <meta
+      name="description"
+      content="Tiny Swimmers - your educational and modern swimming school from Munich. Find out here how we can happily teach your children to swim."
+    />
+    <meta
+      name="keywords"
+      content="Baby swimming, toddler swimming, learning to swim, beginner swimming, swimming course, Munich"
+    />
     <!-- Title -->
     <title>Tiny Swimmers</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">   
-     <!-- Stylesheet -->
-     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <div id="logo">
-                <img src="assets/images/splash.png" alt="Tiny Swimmers Logo" id="logo-image" width="180" height="80">
-                <h1>Tiny Swimmers</h1>
-            </div>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="registernow.html" class="active">Register</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <div id="logo">
+          <img
+            src="assets/images/splash.png"
+            alt="Tiny Swimmers Logo"
+            id="logo-image"
+            width="180"
+            height="80"
+          />
+          <h1>Tiny Swimmers</h1>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="registernow.html" class="active">Register</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section class="registration">
-            <div class="container">
-              <h2>Registration Form</h2>
-              <p>Discover the Joy of Swimming: Register Now!</p>
-              <form action="https://formdump.codeinstitute.net" method="POST">
-                <div class="form-group">
-                  <label for="parent-name">Your Full Name:</label>
-                  <input type="text" id="parent-name" name="parent-name" required />
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
-                <div class="form-group">
-                  <label for="phone">Phone Number:</label>
-                  <input type="tel" id="phone" name="phone" required />
-                </div>
-                <div class="form-group">
-                  <label for="baby-name">Your Child's Full Name:</label>
-                  <input type="text" id="baby-name" name="baby-name" required />
-                </div>
-                <div class="form-group">
-                  <label for="baby-age">Age Of Your Child:</label>
-                  <input type="number" id="baby-age" name="baby-age" required />
-                </div>
-                <div class="form-group">
-                  <label for="course">Course:</label>
-                  <select id="course" name="course" required>
-                    <option value="">Select Course</option>
-                    <option value="infant-exploration">
-                        Infant Water Exploration
-                    </option>
-                    <option value="toddler-swim-play">Toddler Swim and Play</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="special-requests">Special Requests:</label>
-                  <textarea id="special-requests" name="special-requests"></textarea>
-                </div>
-                <button type="submit" class="btn">Submit</button>
-              </form>
+      <section class="registration">
+        <div class="container">
+          <h2>Registration Form</h2>
+          <p>Discover the Joy of Swimming: Register Now!</p>
+          <form action="https://formdump.codeinstitute.net" method="POST">
+            <div class="form-group">
+              <label for="parent-name">Your Full Name:</label>
+              <input type="text" id="parent-name" name="parent-name" required />
             </div>
-          </section>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="baby-name">Your Child's Full Name:</label>
+              <input type="text" id="baby-name" name="baby-name" required />
+            </div>
+            <div class="form-group">
+              <label for="baby-age">Age Of Your Child:</label>
+              <input type="number" id="baby-age" name="baby-age" required />
+            </div>
+            <div class="form-group">
+              <label for="course">Course:</label>
+              <select id="course" name="course" required>
+                <option value="">Select Course</option>
+                <option value="infant-exploration">
+                  Infant Water Exploration
+                </option>
+                <option value="toddler-swim-play">Toddler Swim and Play</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="special-requests">Special Requests:</label>
+              <textarea
+                id="special-requests"
+                name="special-requests"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <h3 class="sub-heading">Follow Tiny Swimmers On Social Media</h3>
-        <ul id="social-media">
-            <li><a href="https://www.facebook.com/" target="_blank"
-                rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank"
-                rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank"
-                rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"
-                rel="noopener" aria-label="Visit our nstagram page (opens in a new tab)"> <i class="fa-brands fa-instagram"></i></a></li>
-        </ul>
-        <p>&copy; 2024 Tiny Swimmers. All rights reserved.</p>
+      <h3 class="sub-heading">Follow Tiny Swimmers On Social Media</h3>
+      <ul id="social-media">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+            ><i class="fa-brands fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our nstagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Tiny Swimmers. All rights reserved.</p>
     </footer>
 
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/2b6a1cc583.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/2b6a1cc583.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

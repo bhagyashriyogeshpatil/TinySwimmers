@@ -249,6 +249,24 @@ p > i {
   margin-top: 10px;
 }
 
+/* Register page style starts here */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+
 /* Footer */
 footer {
   background-color: #c2effe;
