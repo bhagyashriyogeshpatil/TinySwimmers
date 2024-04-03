@@ -175,6 +175,34 @@ span {
   padding: 0.4rem 0;
 }
 
+/* Instructor section */
+#instructors .container {
+  align-items: center;
+}  
+
+.instructor {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.instructor-img {
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 10px;
+  /* Makes the square image into a circle */
+  border-radius: 50%;
+  max-width: 220px;
+  max-height: 220px;
+}
+
+#instructor-img-one {
+  background: url('../images/Instructor_sarah.jpg') no-repeat top center / cover;
+}
+
+#instructor-img-two {
+  background: url('../images/Instructor_alex.jpg') no-repeat top center / cover;
+}
+
 /* Footer */
 footer {
   background-color: #c2effe;
