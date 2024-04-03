@@ -109,6 +109,9 @@ main {
   flex: 1 0 auto;
 }
 
+
+/* Home page style starts here */
+
 /* Hero section */
 #hero {
   height: 400px;
@@ -211,6 +214,39 @@ span {
 
 p > i {
   margin-right: 10px; 
+}
+
+/* Courses page style starts here */
+#toddler-img {
+  height: 90vw;
+  width: 90vw;
+  background: url("../images/toddler-img.jpg") no-repeat center center/cover;
+  border-radius: 10%;
+  max-width: 220px;
+  max-height: 220px;
+}
+
+#infant-img {
+  height: 90vw;
+  width: 90vw;
+  background: url("../images/infant-img.jpg") no-repeat center center/cover;
+  border-radius: 10%;
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.baby-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.baby-image:hover,
+.baby-image:active {
+  filter: grayscale(0%);
+}
+
+.course-info .btn {
+  margin-top: 10px;
 }
 
 /* Footer */
