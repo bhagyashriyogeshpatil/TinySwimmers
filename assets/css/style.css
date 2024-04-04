@@ -386,4 +386,9 @@ footer p {
   #register-homepage p, #contact p{
     text-align: center;
   }
+
+  /* Courses page style */
+  .course-page .container {
+    width: 70%;
+  }
 }
