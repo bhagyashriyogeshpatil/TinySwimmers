@@ -253,6 +253,7 @@ p > i {
 label {
   display: block;
   margin-bottom: 5px;
+  font-size: 0.85rem;
 }
 
 input[type="text"],
@@ -266,6 +267,10 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   }
+
+button {
+  border: none;
+}
 
 /* Footer */
 footer {

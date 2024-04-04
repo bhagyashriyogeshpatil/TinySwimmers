@@ -145,7 +145,7 @@ Using Figma I created the wireframe for my site
 []()
 
 
-### Bugs and Fixes
+#### Bugs and Fixes
 - Some bugs that were found and fixed:
 
 | **Bug** | **Fix** |
