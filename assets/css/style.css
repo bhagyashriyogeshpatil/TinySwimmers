@@ -109,9 +109,7 @@ main {
   flex: 1 0 auto;
 }
 
-
 /* Home page style starts here */
-
 /* Hero section */
 #hero {
   height: 400px;
@@ -141,11 +139,11 @@ main {
   letter-spacing: 2px;
   color: #03074e;
   font-weight: 700;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .hero-caption {
-    font-size: 100%;
+    font-size: 70%;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -358,12 +356,13 @@ footer p {
     width: 60vw;
   }
 
+  /* Hero section */
   #cover-text-intro {
-    font-size: 180%;
+    font-size: 120%;
   }
   
   .hero-caption {
-    font-size: 110%;
+    font-size: 80%;
   }
 
   /* Instructor section */
@@ -409,11 +408,11 @@ footer p {
   }
 
   #cover-text-intro {
-    font-size: 200%;
+    font-size: 150%;
   }
   
   .hero-caption {
-    font-size: 120%;
+      font-size: 100%;
   }
 
   /* Main content */

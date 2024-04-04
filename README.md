@@ -52,6 +52,7 @@ Using Figma I created the wireframe for my site
   - It includes links to Logo, Home page, Courses and Register page. Also nav bar is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - Responsive navigation ensures that users can navigate the website effectively regardless of the device they are using.
+  - The aria-label attribute is used to provide a labels or descriptions to elements that might not have a visible label, mainly for accessibility purposes.
 
 ![Nav Bar]()
 
@@ -119,7 +120,7 @@ Using Figma I created the wireframe for my site
 
 - __Register Page__
 
-  - This page will allow the user to get registered to Tiny Swimmers to start their running journey with the swimming. When registering for the Tiny Swimmers Course, users may be asked to provide various pieces of information to complete the registration process. The user will be asked to submit their full name, name of the child, email address, select course name and special requests regarding the registration process. By providing this information during the registration process, users can ensure that their child is enrolled properly in the Tiny Swimmers Course and that the program can accommodate any specific needs or preferences they may have.
+  - This page will allow the user to get registered to Tiny Swimmers to start their running journey with the swimming. When registering for the Tiny Swimmers Course, users may be asked to provide various pieces of information to complete the registration process. The user will be asked to submit their full name, name of the child, email address, select course name and special requests regarding the registration process. By providing this information during the registration process, users can ensure that their child is enrolled properly in the Tiny Swimmers Course and that the program can accommodate any specific needs or preferences they may have. The aria-label attribute is used to provide a labels or descriptions to elements that might not have a visible label, mainly for accessibility purposes.
 
 ![Register Page]()
 
