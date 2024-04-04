@@ -278,6 +278,13 @@ button {
   border: none;
 }
 
+.form .btn {
+  display: block;   /* Convert button to block-level element */
+  margin: 0 auto;  /* Center block-level element horizontally */
+  margin-top: 5px;
+}
+
+
 /* Footer */
 footer {
   background-color: #c2effe;
