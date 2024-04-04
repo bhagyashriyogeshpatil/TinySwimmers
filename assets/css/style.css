@@ -282,6 +282,7 @@ button {
   display: block;   /* Convert button to block-level element */
   margin: 0 auto;  /* Center block-level element horizontally */
   margin-top: 5px;
+  font-size: 90%;
 }
 
 
