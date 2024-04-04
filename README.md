@@ -172,7 +172,7 @@ Using Figma I created the wireframe for my site
 
 ### Content 
 + All content was written using sources as: 
-+ The captions for the Home page was taken from Chatgpt
++ The captions and text for the Home page was taken from Chatgpt
 + [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
 + [Font Awesome](https://fontawesome.com/) - The icons were taken from 
 + [W3 Schools](https://www.w3schools.com/) - Used for variety of tutorials and deeper understanding of some important concepts related to both HTML and CSS.
