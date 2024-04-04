@@ -245,6 +245,12 @@ p > i {
   filter: grayscale(0%);
 }
 
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .course-info .btn {
   margin-top: 10px;
 }
