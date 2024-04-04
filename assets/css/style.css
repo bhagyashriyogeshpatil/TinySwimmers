@@ -144,7 +144,7 @@ main {
   font-size: 150%;
 }
 
-.hero-caption p {
+.hero-caption {
     font-size: 100%;
     letter-spacing: 1px;
     font-weight: 600;
@@ -358,6 +358,14 @@ footer p {
     width: 60vw;
   }
 
+  #cover-text-intro {
+    font-size: 180%;
+  }
+  
+  .hero-caption {
+    font-size: 110%;
+  }
+
   /* Instructor section */
   .container > .instructors {
     width: 100%;
@@ -398,6 +406,14 @@ footer p {
   /* Hero section */
   #hero {
     height: 550px;
+  }
+
+  #cover-text-intro {
+    font-size: 200%;
+  }
+  
+  .hero-caption {
+    font-size: 120%;
   }
 
   /* Main content */
