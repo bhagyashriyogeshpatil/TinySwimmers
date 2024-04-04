@@ -136,8 +136,18 @@ main {
   color: #022853;
 }
 
-#cover-text h1 {
-  font-family: inherit;
+#cover-text-intro {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #03074e;
+  font-weight: 700;
+  font-size: 150%;
+}
+
+.hero-caption p {
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .btn {
