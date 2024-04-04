@@ -360,9 +360,8 @@ footer p {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
- 
-  
+@media screen and (min-width: 992px) { 
+   /* Header */
   #menu-links a:hover {
     border-bottom: 1px solid #022853;
   }
@@ -370,5 +369,10 @@ footer p {
   /* Hero section */
   #hero {
     height: 550px;
+  }
+
+  /* Main content */
+  #register-homepage p, #contact p{
+    text-align: center;
   }
 }
