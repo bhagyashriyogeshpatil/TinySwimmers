@@ -283,6 +283,11 @@ Fix: Applied a numerical pattern to the "Phone number" field in the registration
 Bug: Footer was different on Courses and Register page compaired to Home Page.
 Fix: The mentor noticed and informed me. I copied the footer section of home page in other two pages.
 
+#### Unfixed Bugs
+
+![unfixed bug](assets/images/readme-images/console-error-image.png)
+ - The "404 Not Found" error appeared in the console of the dev tool. To resolve this issue, I attempted to relocate the site.webmanifest file from the favicon directory to the root directory, but the problem persisted. I then edited the site.webmanifest file by specifying relative paths for each image in the favicon directory. Following Kay's (Cohort Facilitator) suggestion, I commented out this link in all HTML files.
+
 ## Deployment
 
 - The website was developed using GitPod and deployed through GitHub Pages.
