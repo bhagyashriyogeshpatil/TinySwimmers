@@ -86,7 +86,7 @@ For the laptop version of the website, the wireframe was not created using Figma
 ![Hero section](assets/images/readme-images/hero-section-mobile.png)
 
 #### Desktop Hero section
-![Hero section for Desktop](assets/images/readme-images/herosection-desktop.png)
+![Hero section for Desktop](assets/images/readme-images/hero-section-desktop.png)
 
 - __Intro section__
 
